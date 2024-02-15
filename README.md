@@ -11,22 +11,19 @@
 - refeicoesComCarne, fator de 0.5, é utilizado para representar as emissões associadas à produção de carne.
 
 - A pegada de carbono do usuário é calculada a partir de três fatores: transporte (quilômetros diários × 365 × 0.2), eletrônicos (horas diárias × 0.1) e consumo de carne (refeições com carne por dia × 0.5). A soma desses valores fornece a pegada de carbono total, abrangendo diversas fontes de emissões.
-
 #
 ### 📌 Entrada
 </br> 
 
 - Como entrada será recebido o nome(string), quilometrosPorDia(double), horasDeEletronicos(int) e refeicoesComCarne(int).
-
 #
 ### 📌 Saída
 </br>
 
+- Exiba a pegada de carbono calculada com base nas informações fornecidas pelo usuário.
 #
 ### 📌 Tecnologias e ferramentas:
-
 </br>
-
 <div>
 
 ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white)
