@@ -16,6 +16,8 @@
 ### 📌 Entrada
 </br> 
 
+- Como entrada será recebido o nome(string), quilometrosPorDia(double), horasDeEletronicos(int) e refeicoesComCarne(int).
+
 #
 ### 📌 Saída
 </br>
