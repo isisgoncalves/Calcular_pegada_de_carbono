@@ -16,7 +16,6 @@ class Program
         Console.ReadLine();
     }
 
-    // TODO: Crie um método/função para calcular a pegada de carbono com base nos parâmetros fornecidos:
   static double CalcularPegadaDeCarbono(double quilometrosPorDia, int horasDeEletronicos, int refeicoesComCarne)
     {
         // Fatores de emissão
