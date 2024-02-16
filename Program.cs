@@ -4,8 +4,6 @@ class Program
 {
     static void Main()
     {
-        // Solicita o nome do usuário, quilômetros percorridos por dia, 
-       // Horas de uso de eletrônicos por dia e o número de refeições com carne:
        string nome = Console.ReadLine();
        double quilometrosPorDia = double.Parse(Console.ReadLine());
        int horasDeEletronicos = int.Parse(Console.ReadLine());
