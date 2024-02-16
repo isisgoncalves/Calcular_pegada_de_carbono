@@ -22,7 +22,6 @@ class Program
         double fatorEletronicos = 0.1;
         double fatorCarne = 0.5;
 
-        // Cálculo da pegada de carbono
         double pegadaTransporte = quilometrosPorDia * 365 * fatorTransporte;
         double pegadaEletronicos = horasDeEletronicos * fatorEletronicos;
         double pegadaCarne = refeicoesComCarne * fatorCarne;
