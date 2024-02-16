@@ -11,7 +11,6 @@ class Program
 
         double pegadaDeCarbono = CalcularPegadaDeCarbono(quilometrosPorDia, horasDeEletronicos, refeicoesComCarne);
         
-        // TODO: Exiba o resultado para o usuário:
         Console.WriteLine($"{nome}, sua pegada de carbono e de {pegadaDeCarbono} toneladas de CO2 por ano.");
 
         // Aguarda a entrada do usuário antes de encerrar o programa:
