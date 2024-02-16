@@ -18,7 +18,6 @@ class Program
 
   static double CalcularPegadaDeCarbono(double quilometrosPorDia, int horasDeEletronicos, int refeicoesComCarne)
     {
-        // Fatores de emissão
         double fatorTransporte = 0.2;
         double fatorEletronicos = 0.1;
         double fatorCarne = 0.5;
