@@ -26,7 +26,6 @@ class Program
         double pegadaEletronicos = horasDeEletronicos * fatorEletronicos;
         double pegadaCarne = refeicoesComCarne * fatorCarne;
 
-        // Soma dos valores
         double pegadaTotal = pegadaTransporte + pegadaEletronicos + pegadaCarne;
 
         return pegadaTotal;
