@@ -13,7 +13,6 @@ class Program
         
         Console.WriteLine($"{nome}, sua pegada de carbono e de {pegadaDeCarbono} toneladas de CO2 por ano.");
 
-        // Aguarda a entrada do usuário antes de encerrar o programa:
         Console.ReadLine();
     }
 
