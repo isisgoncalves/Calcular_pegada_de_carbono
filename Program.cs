@@ -9,7 +9,6 @@ class Program
        int horasDeEletronicos = int.Parse(Console.ReadLine());
        int refeicoesComCarne = int.Parse(Console.ReadLine());
 
-        // Chama o método para calcular a pegada de carbono
         double pegadaDeCarbono = CalcularPegadaDeCarbono(quilometrosPorDia, horasDeEletronicos, refeicoesComCarne);
         
         // TODO: Exiba o resultado para o usuário:
